@@ -382,8 +382,8 @@
                 "text": "Auth Provider"
               },
               "body": {
-                "stroke": "red",
-                "strokeWidth": 2.5,
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
                 "strokeDasharray": null
               }
             },
@@ -479,31 +479,17 @@
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": true,
+              "hasOpenThreats": false,
               "handlesCardPayment": false,
               "handlesGoodsOrServices": false,
               "isWebApplication": false,
               "privilegeLevel": "",
-              "threats": [
-                {
-                  "id": "92284196-a0c0-42f8-951d-4c544b986182",
-                  "title": "LDAP expose",
-                  "status": "Open",
-                  "severity": "TBD",
-                  "type": "Information disclosure",
-                  "description": "LDAP exposes improperly sensitive information",
-                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
-                  "modelType": "STRIDE",
-                  "new": false,
-                  "number": 28,
-                  "score": ""
-                }
-              ],
+              "threats": [],
               "threatFrequency": {
                 "spoofing": 0,
                 "tampering": 0,
                 "repudiation": 0,
-                "informationDisclosure": 1,
+                "informationDisclosure": 0,
                 "denialOfService": 0,
                 "elevationOfPrivilege": 0
               }
@@ -1134,25 +1120,12 @@
                   "new": false,
                   "number": 8,
                   "score": ""
-                },
-                {
-                  "id": "2fc53113-af0a-4e00-9a70-3dc2cfe18d53",
-                  "title": "Client DoS",
-                  "status": "Open",
-                  "severity": "TBD",
-                  "type": "Denial of service",
-                  "description": "The browser client crashes, halts, stops or runs slowly, in all cases violating an availability metric.",
-                  "mitigation": "N/A",
-                  "modelType": "STRIDE",
-                  "new": false,
-                  "number": 13,
-                  "score": ""
                 }
               ],
               "threatFrequency": {
                 "tampering": 2,
                 "informationDisclosure": 1,
-                "denialOfService": 1
+                "denialOfService": 0
               }
             },
             "labels": [
@@ -1170,7 +1143,7 @@
             "vertices": [
               {
                 "x": 142,
-                "y": 190
+                "y": 180
               }
             ]
           },
@@ -1567,6 +1540,6 @@
     ],
     "diagramTop": 1,
     "reviewer": "",
-    "threatTop": 48
+    "threatTop": 50
   }
 }
